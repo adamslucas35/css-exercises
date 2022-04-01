@@ -1,0 +1,15 @@
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align:center;
+}
+div .test {
+    color: purple;
+    background-color: aquamarine;
+    font-size: 35px;
+    text-align:justify;
+}
+div {
+    text-align: right;
+}
