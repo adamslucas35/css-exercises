@@ -5,17 +5,25 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #cbcaca;
+  color: black;
+  margin: 15px;
+  font-size: 20px;
+  padding: 8px 16px;
+
 }
 
 input {
@@ -23,5 +31,98 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin: 16px;
+}
+
+/*
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color: #ffff;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+}
+*/
+.left-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-right: auto;
+
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+/*
+.footer {
+  height: 25px;
+  padding: 28px;
+  text-align: center;
+  background-color: lightgray;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+
+}
+*/
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  padding: 150px;
+  margin: 50px;
+
+
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: rgb(203, 202, 202);
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+
+
+
+
+a {
+  color: rgb(116, 113, 113);
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+
+
+
+
+li {
+  list-style: none;
 }
